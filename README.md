@@ -1,4 +1,4 @@
-# 🛰️ ACFC: Breach at Astraeus-9
+# ACFC: Breach at Astraeus-9
 
 > *Station Astraeus-9 has gone dark. The ACFC Cyber Defence Unit has been deployed. That unit is you.*
 
@@ -6,7 +6,7 @@ An internal Capture the Flag (CTF) cybersecurity competition designed and hosted
 
 ---
 
-## 📋 Overview
+## Overview
 
 | Detail | Info |
 |---|---|
@@ -14,14 +14,13 @@ An internal Capture the Flag (CTF) cybersecurity competition designed and hosted
 | **Format** | Jeopardy-style CTF |
 | **Duration** | 72 hours (26–28 April 2026) |
 | **Platform** | CTFd Plus |
-| **Participants** | SOC Analysts (mandatory) + All ACFC Staff (open) |
 | **Flag Format** | `ACFC{...}` |
 | **Total Challenges** | 15 across 5 categories |
 | **Organised by** | Axiata Cyber Fusion Center — Cyber Defence Unit |
 
 ---
 
-## 🗂️ Challenge Categories
+## Challenge Categories
 
 ### Category 1 — Open-Source & Entry Clues
 | # | Challenge | Difficulty | Points | Description |
@@ -103,7 +102,7 @@ astraeus9-ctf/
 
 ---
 
-## 🐳 Docker Challenges
+## Docker Challenges
 
 Three challenges are hosted as Docker containers deployed via CTFd Plus:
 
@@ -168,43 +167,21 @@ Six daily briefing packs were distributed to participants in the week before the
 
 All briefing documents are available in the `/briefings` directory.
 
----
-
-## 🏆 Prize Structure
-
-| Placement | Prize | Eligibility |
-|---|---|---|
-| 1st Place | RM 200 cash voucher | Blue Team (SOC Analysts) |
-| 2nd Place | RM 120 cash voucher | Blue Team (SOC Analysts) |
-| 3rd Place | RM 80 cash voucher | Blue Team (SOC Analysts) |
-| 4th Place | RM 50 cash voucher | Blue Team (SOC Analysts) |
-| 5th Place | RM 50 cash voucher | Blue Team (SOC Analysts) |
-| First Blood | Consolation prize | Open to all |
-| Best Write-Up | Consolation prize | Open to all |
-| Most Challenges Solved | Consolation prize | Open to all |
-| Top scorers (x7) | Consolation prizes | Open to all |
 
 ---
 
-## 📝 Write-Ups & Solutions
+##  Write-Ups & Solutions
 
 Official challenge write-ups and solutions are **not publicly available** in this repository.
 
 If you would like access to the official solutions — for learning purposes, security research, or academic use — please reach out directly:
 
-📧 **rafa.islam@axiatadigitall.com**
+📧 **contact@rafaislamdiba.com**
 
 Please include your name and the reason for your request. Write-ups from event participants may also be shared upon request.
 
 ---
 
-## 👥 Team
-
-| Role | Name |
-|---|---|
-| Event Organiser & Challenge Designer | Rafaya |
-| Technical Support & Infrastructure | Rafa Islam Diba |
-| Technical Support & Challenge Co-Designer | Ahmad Ahnaf Bin Masdi |
 
 ---
 
@@ -214,11 +191,11 @@ The **Axiata Cyber Fusion Center (ACFC)** is the cybersecurity operations centre
 
 ACFC is home to the **HELIOS** platform — a patented heuristic engine for threat detection, attribution, and operational security — Malaysia's first cybersecurity patent by a government-linked company.
 
-[Learn more about ACFC](https://www.axiata.com)
+[Learn more about ACFC](https://www.axiatacfc.com)
 
 ---
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 All challenge files, scenarios, and infrastructure in this repository are created for **educational and internal assessment purposes only**. The incidents, IP addresses, account names, and organisations referenced are entirely fictional and do not represent real events.
 
