@@ -164,7 +164,7 @@ Official challenge write-ups and solutions are **not publicly available** in thi
 
 To request access, for learning, security research, or academic purposes:
 
-📧 **ritzshere948@gmail.com** or **ahmadahnaf54@gmail.com**
+📧 **ritzshere948@gmail.com** or **justcocrush@gmail.com**
 
 Please include your name and reason for the request.
 
