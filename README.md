@@ -118,13 +118,6 @@ astraeus9-ctf/
 ├── infrastructure/
 │   ├── ctfd-config/
 │   └── docker/
-├── briefings/
-│   ├── day1-linux-fundamentals.docx
-│   ├── day2-osint-web.docx
-│   ├── day3-phishing-malware.docx
-│   ├── day4-crypto-stego.docx
-│   ├── day5-network-forensics.docx
-│   └── day6-incident-response.docx
 ├── writeups/
 │   └── README.md
 └── assets/
@@ -162,8 +155,6 @@ Six daily briefing packs were distributed in the week before the event:
 | Day 4 | Cryptography & Steganography |
 | Day 5 | Network & Host Forensics |
 | Day 6 | Incident Response & Exploitation |
-
-All briefing documents are available in the `/briefings` directory.
 
 ---
 
