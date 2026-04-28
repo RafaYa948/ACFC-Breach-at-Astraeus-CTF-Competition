@@ -1,0 +1,91 @@
+Received: from SJ0PR01MB7512.prod.exchangelabs.com (2603:10b6:a03:3d2::9) by
+ DS7PR01MB7855.prod.exchangelabs.com with HTTPS;Thu, 9 Dec 2022 14:58:55
+ +0000
+ARC-Seal: i=2; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=fail;
+ b=duSdPQF6MkHA6NDKezdwwXo0cytNw6pKTyXfmDvi22cwiu15XbtSLWvmqSHiYcaOHDQNUg5f7tY+9JY/CEBHmaBO7E3lusTGIpLFNrNF7v4HyOwH2/XWf+JxNDSUM3TE24w0u8DhCnVy2lAoiH/iINzpcewzwrIQWVvKXkhk8UGbOf4SIgEJfiv9JrrQVPUql0wysWGU3gqoduOgIbFvpjyyGiS/Exd9ddgnfa0sS+83SRQg3jVmLEfSVcmg+9wvZfR6wFcX9Sga7efMqt6a9hT0q3ajrVBYuH+sY2El9UVvViZREf/FBYYkzJ8xO5oLFQanthp6EoFyN/DqNgO2Tw==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901;
+ h=From:Date:Subject:Message-ID:Content-Type:MIME-Version:X-MS-Exchange-AntiSpam-MessageData-ChunkCount:X-MS-Exchange-AntiSpam-MessageData-0:X-MS-Exchange-AntiSpam-MessageData-1;
+ bh=AXBCwGkRxYZo4VpdXt4XQsGpZAHIDSpANJ7sP0OmP3M=;
+ b=YV4rXtkEs8amVnLpcgziiiy3nO93s3HgMRy5SCHjk2Hw+yNPHRtJ2XWmWhSPI6W5aaIFstGBWpjyhE0u9A3vzC9r7ooUojm+hWE3Np2Kr2RyqtHrGzRQkzlGQ51vzG1U7jFokrXN0bUclFoXMlhZMvIoATxCZfj+TpT/zyoVxok1bxb1fyul8TWqqvPVFWO3lB38fuZ7QXcLCoc0GwVELhF8RfiHlEqiyS8u5emyOlJOSZBO1RniGFcZ+eDvGfM9bSui8daMiifi7VvoaMX0+ed6ajqa1zsBzWOD4BfGyVSgD5udi6wtnzcTKcqDJo9JyTfocwmCR8FIhINRFo0CcQ==
+ARC-Authentication-Results: i=2; mx.microsoft.com 1; spf=softfail (sender ip
+ is 18.208.22.104) smtp.rcpttodomain=fsfb.org.co smtp.mailfrom=uptc.edu.co;
+ dmarc=none action=none header.from=uptc.edu.co; dkim=fail (no key for
+ signature) header.d=uptc.edu.co; arc=fail (35)
+Received: from BL1PR13CA0359.namprd13.prod.outlook.com (2603:10b6:208:2c6::34)
+ by SJ0PR01MB7512.prod.exchangelabs.com (2603:10b6:a03:3d2::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7025.29;Thu, 9 Dec 2022 14:58:44 +0000
+Received: from BL6PEPF0001AB51.namprd04.prod.outlook.com
+ (2603:10b6:208:2c6:cafe::8b) by BL1PR13CA0359.outlook.office365.com
+ (2603:10b6:208:2c6::34) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7046.19 via Frontend
+ Transport;Thu, 9 Dec 2022 14:58:43 +0000
+Authentication-Results: spf=softfail (sender IP is 18.208.22.104)
+ smtp.mailfrom=uptc.edu.co; dkim=fail (no key for signature)
+ header.d=uptc.edu.co;dmarc=none action=none
+Received-SPF: SoftFail (protection.outlook.com: domain of transitioning
+ uptc.edu.co discourages use of 18.208.22.104 as permitted sender)
+Received: from inpost.tmes.trendmicro.com (18.208.22.104) by
+ BL6PEPF0001AB51.mail.protection.outlook.com (10.167.242.75) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.7046.17 via Frontend Transport;Thu, 9 Dec 2022 14:58:42 +0000
+Received: from mail-wr1-f65.google.com (unknown [209.85.221.65])
+ by inpre01.tmes.trendmicro.com (Trend Micro Email Security) with ESMTPS id
+ 1FC7A1001A291 for <servicios.informaticos@fsfb.org.co>;Thu, 9 Dec 2022
+ 14:58:39 +0000 (UTC)
+From: Astraeus Mission Control <security@astraeus-orbit.space>
+Date: Thu, 9 Dec 2022 09:58:26 +0100
+Message-ID: <CABWu4iua5_uex6=G8pi_OJz1tBLJiNakMK-1=7128orpzxbKxw@mail.gmail.com>
+Subject: URGENT: Astraeus Mission Control Security Alert
+To: undisclosed-recipients:;
+Return-Path: ACFC{WoA_@cFC_v3r1fy}
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------_=_NextPart_001_98774E78.6EF8C317"
+
+--------_=_NextPart_001_98774E78.6EF8C317
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+URGENT: Astraeus Mission Control Security Alert
+
+A communication anomaly has been detected in your crew profile. Immediate credential verification is required to maintain access to Astraeus onboard systems.
+
+Failure to complete verification may result in restricted system access and mission protocol violations.
+
+VERIFY YOUR CREW CREDENTIALS HERE
+<http://107.175.247.199/loader/ACFC{4str4eu5_v3r1fy}>
+
+ACCESS CODE: 8657
+
+Astraeus Mission Control
+Security Division
+
+CONFIDENTIALITY NOTICE: This transmission is intended only for Astraeus crew members. Unauthorized access, review, or distribution is strictly prohibited. If you are not the intended recipient, delete this message immediately and report to Mission Control.
+
+--------_=_NextPart_001_98774E78.6EF8C317
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Astraeus Alert</title>
+</head>
+<body>
+<div style="text-align:center;">
+<h1>URGENT: Astraeus Mission Control Security Alert</h1>
+<p>A communication anomaly has been detected in your crew profile. Immediate credential verification is required.</p>
+<p>
+<a href="http://107.175.247.199/loader/verify.exe">
+VERIFY YOUR CREW CREDENTIALS HERE
+</a>
+</p>
+<p><strong>ACCESS CODE: 8657</strong></p>
+</div>
+</body>
+</html>
+
+--------_=_NextPart_001_98774E78.6EF8C317--
