@@ -1,4 +1,4 @@
-# 🔍 Dead Commit — Official Write-Up
+# Dead Commit 
 
 **Category:** Hidden Data & Access
 **Difficulty:** Medium
