@@ -4,6 +4,7 @@
 **Difficulty:** Medium
 **Points:** 300
 **Files:** `astraeus_terminal` (ELF binary)
+**Prepared by:** Rafa Islam Diba
 
 ---
 
