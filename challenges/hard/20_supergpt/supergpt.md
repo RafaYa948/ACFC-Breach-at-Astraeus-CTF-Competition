@@ -4,6 +4,7 @@
 **Difficulty:** Hard
 **Points:** 500
 **Files:** `extension_package.zip` (contains `manifest.json`, `app.js`, `crypto.js`, `loader.js`, `ui.html`, `gif.jpg`), `Tool.zip`, `Flag.zip`
+**Prepared by:** Ahmed Ahnaf & Rafa Islam Diba
 
 ---
 
