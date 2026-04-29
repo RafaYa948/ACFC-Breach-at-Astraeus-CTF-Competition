@@ -4,6 +4,7 @@
 **Difficulty:** Hard
 **Points:** 500
 **Files:** `crew_entertainment_log.pcap`
+**Prepared by:** Ahmed Ahnaf
 
 ---
 
