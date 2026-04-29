@@ -4,7 +4,7 @@
 **Difficulty:** Easy
 **Points:** 100
 **Files:** None
-**Made by Rafa Islam Diba :**
+**Prepared by:** Rafa Islam Diba
 
 ---
 
