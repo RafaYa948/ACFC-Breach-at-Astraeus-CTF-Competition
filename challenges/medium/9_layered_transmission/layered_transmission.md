@@ -4,6 +4,7 @@
 **Difficulty:** Medium
 **Points:** 300
 **Files:** `flag.jpg` · `flag1.jpg` · `flag2.jpg` · `maybe_this_is_the_flag.jpg` · `not_the_flag.jpg`
+**Prepared by:** Rafa Islam Diba
 
 ---
 
